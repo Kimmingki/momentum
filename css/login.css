@@ -1,0 +1,20 @@
+#login-form p {
+  font-size: 55px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#login-form input {
+  width: 600px;
+  height: 50px;
+  text-align: center;
+  font-size: 40px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 4px solid white;
+}
+
+#login-form input:focus {
+  color: white;
+  outline: none;
+}

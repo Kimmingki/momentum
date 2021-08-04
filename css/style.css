@@ -1,3 +1,20 @@
+@import "reset.css";
+@import "login.css";
+@import "clock.css";
+@import "quote.css";
+@import "greeting.css";
+@import "todo.css";
+@import "weather.css";
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 90vh;
+}
+
 .hidden {
   display: none;
 }
