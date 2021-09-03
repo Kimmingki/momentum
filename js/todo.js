@@ -27,11 +27,13 @@ function paintToDo(newTodo) {
   const li = document.createElement("li");
   // 나중에 local storage에서 삭제를 할 수 있게 id 값을 넣어줌
   li.id = newTodo.id;
+  const div = document.createElement("div");
   const span = document.createElement("span");
   const button = document.createElement("button");
   button.innerText = "❌";
   button.addEventListener("click", deleteToDo);
-  li.appendChild(span);
+  li.appendChild(div);
+  div.appendChild(span);
   li.appendChild(button);
   span.innerText = newTodo.text;
   toDoList.appendChild(li);

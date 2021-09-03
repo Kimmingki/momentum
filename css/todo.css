@@ -38,6 +38,14 @@
   width: 300px;
 }
 
+#todo-list li div {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  word-break: break-all;
+  text-align: center;
+}
+
 #todo-list li span {
   margin-right: 15px;
 }
